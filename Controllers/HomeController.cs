@@ -11,6 +11,9 @@ namespace WebApplication9.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// this is first commit
+        /// </summary>
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
